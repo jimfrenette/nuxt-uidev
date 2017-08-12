@@ -1,4 +1,4 @@
-# [vue-ui](docs/index.md)
+# [vue-ui :pizza:](docs/index.md)
 
 > Nuxt.js project
 
