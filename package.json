@@ -18,6 +18,7 @@
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "bourbon": "^4.3.4",
+    "bourbon-neat": "^1.9.0",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",

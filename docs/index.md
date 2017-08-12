@@ -28,13 +28,31 @@ npm install jquery --save-dev
 > Bourbon
 ```bash
 # bourbon
-npm install --save bourbon
+npm install bourbon --save-dev
 ```
 
 usage
 ```
 <style lang="scss">
 @import "~bourbon/app/assets/stylesheets/bourbon";
+
+.container {
+  @include linear-gradient(to top, red, orange);
+}
+</style>
+```
+
+> Bourbon Neat
+```bash
+# bourbon neat
+npm install bourbon-neat --save-dev
+```
+
+usage
+```
+<style lang="scss">
+@import "~bourbon/app/assets/stylesheets/bourbon";
+@import "~bourbon-neat/app/assets/stylesheets/neat/neat";
 
 .container {
   @include linear-gradient(to top, red, orange);
