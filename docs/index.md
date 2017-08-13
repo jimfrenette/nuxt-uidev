@@ -25,6 +25,21 @@ usage
 npm install jquery --save-dev
 ```
 
+usage
+```
+<script>
+import $ from 'jquery'
+
+export default {
+  mounted: () => {
+
+    // jQuery code
+
+  }
+}
+</script>
+```
+
 > Bourbon
 ```bash
 # bourbon
